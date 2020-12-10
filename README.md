@@ -3,7 +3,7 @@
 Contracted by marketing agency to optimize the websites while stylizing accessibility of the code. Links on the page were fixed to properly bring visitors of the webpage to be brought to the appropriate content. style.css page was reworked to reflect any changes made in the index.html as well as reordering prompts into the correct sequential order.
 
 ## Site Picture
-![Site](#)
+![Site](assets/images/01-html-css-git-homework-demo.png)
 
 ### Prerequisites
 
@@ -47,13 +47,13 @@ Give examples
 
 ## Deployed Link
 
-* [See Live Site](#)
+[Live Link "Horiseon Social Media Marketing](https://michaelanthonyyy.github.io/refactor-demo/)
 
 
 ## Authors
 
-* **Michael Medina** 
-- [Link to Github](https://github.com/)
+**Michael Medina** 
+- [Link to Github](https://github.com/michaelanthonyyy)
 - [Link to LinkedIn](https://www.linkedin.com/)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
