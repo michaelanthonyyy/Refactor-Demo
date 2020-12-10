@@ -171,6 +171,7 @@ p {
     margin-bottom: 10px;
     text-align: center;
 /*moved h3 tagged elements to bottom of style.css for organization */
+}
 
 .footer {
     padding: 30px;
