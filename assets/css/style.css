@@ -88,20 +88,14 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+.benefit-lead, 
+.benefit-brand,
+.benefit-cost, {
     margin-bottom: 32px;
     color: #ffffff;
 }
+/*consolidate benefit code for ease of edits later */
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
 
 .benefit-lead img {
     display: block;
