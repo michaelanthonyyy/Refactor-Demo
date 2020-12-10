@@ -88,14 +88,20 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead, 
-.benefit-brand,
-.benefit-cost, {
+.benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
-/*consolidate benefit code for ease of edits later */
 
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
 
 .benefit-lead img {
     display: block;
@@ -115,6 +121,8 @@ p {
     max-width: 150px;
 }
 
+.social-media-marketing, 
+.online-reputation-management, 
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -123,24 +131,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
+/* consolidated previous code so all three parts can be edited simultaneously */ 
 
 .search-engine-optimization img, 
 .online-reputation-management img,
