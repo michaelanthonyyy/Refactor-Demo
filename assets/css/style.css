@@ -88,10 +88,13 @@ p {
     background-color: #2589bd;
 }
 
-#benefits {
+.benefit-lead,
+.benefit-brand,
+.benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
+
 
 .benefit-lead img {
     display: block;
