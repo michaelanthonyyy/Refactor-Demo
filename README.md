@@ -1,24 +1,28 @@
 # Refactor Demo
 
-Contracted by marketing agency to optimize the websites while stylizing accessibility of the code. Links on the page were fixed to properly bring visitors of the webpage to be brought to the appropriate content. style.css page was reworked to reflect any changes made in the index.html as well as reordering prompts into the correct sequential order.
+
+
+## Summary
+Horiseon is a marketing agency that wants their site that is optimized for search engines as well as a codebase following accessibility standards by anybody who reads the code. 
+<br>
+<br>
 
 ## Site Picture
 ![Site](assets/images/01-html-css-git-homework-demo.png)
+<br>
+<br>
 
-### Prerequisites
-
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
+## What Was Changed
+Tasked by marketing agency to optimize the websites while stylizing accessibility of the code. Links on the page were fixed to properly bring visitors of the webpage to be brought to the appropriate content. The style.css page was reworked to reflect any changes made in the index.html as well as reordering prompts into the correct sequential order. Different elements in index.html were renamed for ease in any future changes that may be made by another party.
+<br>
+<br>
 
 ## Code Snippet
 ```html
     <!-- changed div class to nav to specify navigation links at top of website -->
-    <nav class="content">
+    <main class="content">
         <section id="search-engine-optimization" class="search-engine-optimization">
-            <!-- fixed search engine optimization adding missing section id tag-->
+            <!-- fixed search engine optimization leading to ease of access-->
             <img src="./assets/images/search-engine-optimization.jpg" alt="Search Engine Optimization" class="float-left" />
             <h2>Search Engine Optimization</h2>
             <p>
@@ -38,32 +42,53 @@ Give examples
             <p>
                 Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
             </p>
+            <!-- added alt text to images in each nav section for more search engine optimization-->
+        </section>
+        <!-- renamed div to section to section off content sections of the webpage -->
+    </main>
 ```
+
+```css
+.social-media-marketing, 
+.online-reputation-management, 
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+    /* snippet of a section of code that was consolidated for cleaner looking style.css page */
+}
+```
+<br>
+<br>
+
 
 ## Built With
 
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
+<br>
+<br>
+
 ## Deployed Link
 
-[Live Link "Horiseon Social Media Marketing](https://michaelanthonyyy.github.io/refactor-demo/)
+[Live Link "Horiseon Social Media Marketing"](https://michaelanthonyyy.github.io/refactor-demo/)
 
+<br>
+<br>
 
 ## Authors
 
 **Michael Medina** 
 - [Link to Github](https://github.com/michaelanthonyyy)
-- [Link to LinkedIn](https://www.linkedin.com/)
+- [Link to LinkedIn](https://www.linkedin.com/in/michael-medina-22aa70200?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B311BosSLTMS4JkhAfkX61A%3D%3D)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+<br>
+<br>
 
-## License
+## Acknowledgement
 
-This project is licensed under the MIT License 
-
-## Acknowledgments
-
-* Hat tip to anyone whose code, libraries, packages, or UI was used  / inspired from
-* Inspiration
-* etc
+- This project is was made possible by the UC Berkeley Extension Program for the original code and assets
